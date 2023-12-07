@@ -54,7 +54,7 @@ const Home = () => {
       console.error('Error fetching data:', error.message);
     }
   };
-  const add = async () => {
+ const add = async () => {
     const userInfo = {
       id,
       name,
@@ -62,7 +62,9 @@ const Home = () => {
       address: [{ street, city, country }], // Wrap the address object in an array
       password: pass,
     };
+  
     dispatch(addUser(userInfo));
+  
     try {
       const APIurl = `https://6571d815d61ba6fcc013bf17.mockapi.io/user`;
       const response = await fetch(APIurl, {
@@ -72,6 +74,7 @@ const Home = () => {
         },
         body: JSON.stringify(userInfo),
       });
+  
       if (!response.ok) {
         throw new Error('add fail');
       }
@@ -83,6 +86,7 @@ const Home = () => {
       console.error('Error', error);
     }
   };
+  
   
 
   const deletee = async (id) => {
