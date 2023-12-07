@@ -1,4 +1,4 @@
-Sửa dụng redux tương tác fetch api
+Sử dụng redux tương tác fetch api
 
 ![image](https://github.com/yw07761/TBDD-CK/assets/89188722/39a2b88c-be7b-44c8-8eb5-319d33060be7)
 
@@ -11,3 +11,5 @@ Sửa dụng redux tương tác fetch api
 4. Chụp hình, đặt tên file hình theo từng ý khi chạy chương trình. Ví dụ: Cau01.jpg, Cau02_a.jpg
 - Lưu vào thư mục demo trong project. (Không có không chấm điểm)
 5. Chụp hình history commit (dùng lệnh git log) và bỏ vào thư mục demo nêu trên.
+
+![image](https://github.com/yw07761/TBDD-CK/assets/89188722/21bd8545-d768-4f54-b1ee-7af9b8ed80c6)
